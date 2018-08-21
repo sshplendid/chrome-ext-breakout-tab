@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .container {
+        width: 70%;
+        height: 70%;
+        margin: 40px auto;
+        text-align: center;
+      }
+
+      body {
+        vertical-align: middle;
+      }
+
+      .full {
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background: #d7faea;
+        opacity: 0.3;
+        margin: 0 0 0 0;
+      }
+      .center {
+        position:absolute;
+        top:50%;
+        left:50%;
+        overflow:hidden;
+        margin-top:-150px;
+        text-align: center;
+      }
+      .margin-over {margin-left:-200px;}
+      .margin-clear {margin-left:-220px;}
+      .margin-start {margin-left:-280px;}
+      .big {
+        font-size: 5em;
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <h1>벽돌을 뿌셔뿌셔! 새로운 탭을 뿌셔뿌셔!</h1>
+    </div>
+    <div id="gameStart" class="full">
+      <div class="center margin-start">
+        <h1 class="big">벽돌깨며 스트레스 타파!</br> 시작하려면 클릭!</h1>
+      </div>
+    </div>
+    <div id="gameOver" class="full hidden">
+      <div class="center margin-over">
+        <h1 class="big">GAME OVER ;(<br/> 다시 하려면 클릭!</h1>
+      </div>
+    </div>
+    <div id="gameClear" class="full hidden">
+      <div class="center margin-clear">
+        <h1 class="big">GAME CLEAR! :)<br/> 다시 하려면 클릭!</h1>
+      </div>
+    </div>
+    <script src="./resources/scripts/breakout.js"></script>
+  </body>
+</html>

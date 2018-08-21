@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "Break the new Tab!",
+  "version": "0.1",
+  "description": "깨부수자 깨부수자",
+  "permissions": ["management", "storage", "activeTab", "declarativeContent"],
+  "chrome_url_overrides": { "newtab": "breakout.html" }
+}
