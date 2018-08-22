@@ -13,7 +13,7 @@ Javascript + HTML5 API (Canvas) 를 이용하여 개발했습니다.
  1. 압축 해제한 파일의 ``chrome-ext-breakout-tab/src`` 폴더를 선택한다.
  1. 새로운 탭을 열어 벽돌깨기를 즐긴다.
 
- ![설치방법](https://sshplendid.github.io/resources/images/ext/chrome-ext-breakout-tab_how-to-use.gif)
+ ![설치방법](https://github.com/sshplendid/sshplendid.github.io/blob/master/resources/images/ext/chrome-ext-breakout-tab_how-to-use.gif?raw=true)
 
 ## TODO
 
