@@ -13,10 +13,10 @@ Javascript + HTML5 API (Canvas) 를 이용하여 개발했습니다.
  1. 압축 해제한 파일의 ``chrome-ext-breakout-tab/src`` 폴더를 선택한다.
  1. 새로운 탭을 열어 벽돌깨기를 즐긴다.
 
- ![설치방법](/resources/how-to-use.gif)
+ ![설치방법](https://sshplendid.github.io/resources/images/ext/chrome-ext-breakout-tab_how-to-use.gif)
 
 ## TODO
 
  * [ ] 고양이 이미지 추가
  * [ ] 발사각도 제한
- * [ ] 축하 메시지 
+ * [ ] 축하 메시지
