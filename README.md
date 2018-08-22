@@ -1,6 +1,6 @@
 # 새로운 탭을 뿌셔뿌셔! 벽돌을 뿌셔뿌셔!
 
-크롬 확장프로그램으로 개발한 [newtab](chrome://newtab) 로드 시 벽돌깨기 게임이 로드됩니다.
+크롬 확장프로그램으로 개발한 newtab(``chrome://newtab``) 로드 시 벽돌깨기 게임이 로드됩니다.
 Javascript + HTML5 API (Canvas) 를 이용하여 개발했습니다.
 
 ## 사용법
